@@ -1,0 +1,39 @@
+{
+  "name": "wrap-selectors",
+  "version": "0.0.0",
+  "description": "Wrap CSS selectors up within a prefix and/or suffix",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "reqire.io <whoa@require.io> (http://require.io/)",
+  "devDependencies": {
+    "css-parse": "~1.7.0",
+    "tape": "~2.4.2",
+    "rework": "~0.20.2"
+  },
+  "dependencies": {
+    "css-parse": "~1.7.0",
+    "rework": "~0.20.2",
+    "tape": "~2.4.2"
+  },
+  "keywords": [
+    "wrap",
+    "selectors",
+    "css",
+    "rework",
+    "transform",
+    "nested"
+  ],
+  "homepage": "https://github.com/requireio/wrap-selectors",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/requireio/wrap-selectors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/requireio/wrap-selectors/issues"
+  }
+}

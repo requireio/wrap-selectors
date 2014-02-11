@@ -1,0 +1,3 @@
+@document wrap(&:suffix) {
+  .hello { world: 'lorem' }
+}

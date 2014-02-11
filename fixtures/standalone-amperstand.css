@@ -1,0 +1,3 @@
+@document wrap(&) {
+  .hello { world: 'lorem' }
+}

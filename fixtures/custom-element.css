@@ -1,0 +1,10 @@
+@document wrap(custom-element) {
+  .hello,
+  .again {
+    world: 'lorem';
+  }
+  .lorem,
+  .amet {
+    ipsum: 'dolor';
+  }
+}

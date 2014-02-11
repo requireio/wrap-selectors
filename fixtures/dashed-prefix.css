@@ -1,0 +1,4 @@
+@document wrap(.prefix-&) {
+  .hello { world: 'lorem' }
+  another { test: 'again' }
+}

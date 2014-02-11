@@ -1,0 +1,3 @@
+@document wrap(.prefix:hover) {
+  .hello { world: 'lorem' }
+}

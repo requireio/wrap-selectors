@@ -1,0 +1,15 @@
+.some-normal {
+  outer: 'selector'
+}
+
+@document url(http://google.com) {
+  html, body {
+    display: block;
+  }
+
+  @media screen and (max-width: 400px) {
+    html, body {
+      margin: 0;
+    }
+  }
+}
