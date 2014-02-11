@@ -1,6 +1,6 @@
 {
   "name": "wrap-selectors",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wrap CSS selectors up within a prefix and/or suffix",
   "main": "index.js",
   "directories": {
