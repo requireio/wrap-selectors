@@ -16,8 +16,12 @@ function wrap(options) {
       if (amperstand === -1) {
         return concat(list, rule.rules.map(function(rule) {
           rule.selectors = rule.selectors.map(function(selector) {
+            if (selector.indexOf('&') !== -1)
+              return selector.replace(/\&/g, wrapper)
+
             return wrapper + ' ' + selector
           })
+
           return rule
         }))
       }
